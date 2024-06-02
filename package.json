@@ -4,10 +4,9 @@
     "description": "Minimal Electron App",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+        "start": "electron ."
     },
     "dependencies": {
-      "electron": "^15.0.0"
+        "electron": "^30.0.9"
     }
-  }
-  
+}
