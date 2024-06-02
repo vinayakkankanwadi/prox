@@ -1,15 +1,15 @@
 {
-    "name": "minimal-electron-app",
+    "name": "app",
     "version": "1.0.0",
-    "description": "Minimal Electron App",
-    "main": "dist/main.js",
+    "description": "app",
+    "main": "src/main.js",
     "scripts": {
-    "start": "electron .",
-    "build": "tsc",
-    "build:watch": "tsc -w"
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "dependencies": {
-        "electron": "^30.0.9",
-        "typescript": "^5.4.5"
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^29.1.6"
     }
-}
+  }
