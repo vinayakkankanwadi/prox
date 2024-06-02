@@ -2,11 +2,14 @@
     "name": "minimal-electron-app",
     "version": "1.0.0",
     "description": "Minimal Electron App",
-    "main": "main.js",
+    "main": "dist/main.js",
     "scripts": {
-        "start": "electron ."
+    "start": "electron .",
+    "build": "tsc",
+    "build:watch": "tsc -w"
     },
     "dependencies": {
-        "electron": "^30.0.9"
+        "electron": "^30.0.9",
+        "typescript": "^5.4.5"
     }
 }
