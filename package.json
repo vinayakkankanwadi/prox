@@ -1,0 +1,21 @@
+{
+    "name": "proxmox-manager",
+    "version": "1.0.0",
+    "description": "Proxmox Manager Electron App",
+    "main": "dist/index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "dotenv": "^10.0.0",
+      "electron": "^13.0.1",
+      "@types/electron": "^13.0.1",
+      "@types/node": "^16.3.0",
+      "typescript": "^4.3.5"
+    }
+  }
+  
